@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lan="en">
+
+<head>
+    <title>HTML Login Form</title>
+    <link rel="stylesheet" href="professorPear-styling.css"> 
+    <script defer src="professorPear-main.js"></script>
+</head>
+
+<body>
+    
+    <div class="main">
+        <h1>HercyMurst Email Services</h1>
+        <h3>Please enter your login credentials</h3>
+    </div>
+
+    <br>
+
+    <div class="main">
+
+        <form id="loginForm">
+            <label for="username">
+                Username:
+            </label>
+            <input type="text" id="username" placeholder="Enter your Username"><br>
+
+            <label for="password">
+                Password:
+            </label>
+            <input type="password" id="password" placeholder="Enter your Password"><br>
+                
+                <a href="./security-question.html" style="text-decoration: none;">
+                Forgot your Password?
+                </a>
+
+            <div class="wrap">
+                <button type="button" onclick="getUserInfo()" id="loginFormSubmit">
+                    Submit
+                </button>
+            </div>
+        </form>
+        
+        <h3>Your username: ahacker</h3>
+        <h3>Your password: password123</h3>
+        
+    </div>
+
+    <br>
+
+    <div class="main">
+        <button type="button" onclick="instagram()" id="openInstagram">
+        Open Instagram
+        </button>
+    </div>
+
+</body>
+
+</html>
