@@ -49,7 +49,7 @@ function getUserInfo() {
 }
 
 function goBack() {
-  location.replace("./professorPear-mainPage.html")
+  location.replace("./index.html")
 }
 
 function instagram() {
